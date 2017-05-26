@@ -14,22 +14,23 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": ">=4"
+    "node": ">=0.10.0"
   },
   "scripts": {
     "test": "mocha"
   },
-  "keywords": [
-    "array",
-    "swap"
-  ],
+  "dependencies": {
+    "is-number": "^3.0.0"
+  },
   "devDependencies": {
     "gulp-format-md": "^0.1.12",
     "mocha": "^3.4.2"
   },
-  "dependencies": {
-    "is-number": "^3.0.0"
-  },
+  "keywords": [
+    "arr",
+    "array",
+    "swap"
+  ],
   "verb": {
     "toc": false,
     "layout": "default",
@@ -42,8 +43,8 @@
     "related": {
       "list": [
         "arr-flatten",
-        "array-unique",
-        "arr-union"
+        "arr-union",
+        "array-unique"
       ]
     },
     "lint": {
